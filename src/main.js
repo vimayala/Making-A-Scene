@@ -6,6 +6,9 @@
 
 let config = {
     type: Phaser.AUTO,
+    render: {
+        pixelArt: true                                  //always use when using pixel art
+    },
     scene: [ MainMenu, Play ]
 }
 
